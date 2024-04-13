@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <title>Conference Registration Form</title>
+    <form>
+        Full Name: <br><input type="text" name="firstname"><br>
+        Email Address: <br><input type="text" name="emailaddress"><br>
+        Age: <br><input type="text" name="age"><br><br>
+
+        Gender: <br><br>
+        <input type="radio" name="sex" value="male">Male <br>
+        <input type="radio" name="sex" value="female">Female <br><br>
+
+        Country of Residence: <br>
+        <select name="Country">
+            <option value="Malaysia">Malaysia</option>
+            <option value="Indonesia">Indonesia</option>
+        </select><br><br>
+
+        Area of Interest:<br><br>
+        <input type="checkbox" name="Course" value="Software Developer">Software Developer <br>
+        <input type="checkbox" name="Course" value="Data Science">Data Science <br>
+        <input type="checkbox" name="Course" value="Cybersecurity">Cybersecurity <br>
+        <input type="checkbox" name="Course" value="Artificial Intelligence">Artificial Intelligence <br><br>
+
+        Experience Level: <br><br>
+        <input type="radio" name="level" value="beginner">Beginner <br>
+        <input type="radio" name="level" value="intermediate">Intermediate <br>
+        <input type="radio" name="level" value="advanced">Advanced <br><br>
+
+        Comment or Question: <br>
+        <textarea id="review" name="review" cols="30" rows="3">
+ Any comment or question?
+        </textarea><br>
+        <input type="submit" value="Submit">
+        <input type="submit" value="Reset">
+    </form>
+</head>
